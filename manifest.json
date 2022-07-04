@@ -1,0 +1,20 @@
+{
+    "name": "taziki",
+    "description": "",
+    "version": "1.0",
+    "manifest_version": 3,
+    "background": {
+        "service_worker": "main.js"
+      },
+    "permissions": [
+        "activeTab",
+        "scripting",
+        "storage"
+    ],
+    "content_scripts": [],
+    "externally_connectable": {
+      "matches": ["https://www.olx.pl/obserwowane"]
+    },
+    "action": {},
+    "options_page": "settings.html"
+  }
